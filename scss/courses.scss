@@ -1,0 +1,198 @@
+/* <style media="screen"> */
+body {
+  font: 14px/1.5 'Lato', sans-serif;
+  color: #797979;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #FFEDFB;
+}
+
+.container {
+  width: 100%;
+  margin-left: 100px;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+/*The header includes the logo, nav and search box*/
+header {
+position: fixed;
+width: 100%;
+z-index: 1;
+padding-top: 30px;
+margin-bottom: 50px;
+min-height: 70px;
+background-color: white;
+}
+
+header a {
+color: grey;
+text-decoration: none;
+font-size: 17px;
+}
+
+header a:hover {
+color: #EE534F;
+font-weight: bold;
+}
+
+header li {
+float: left;
+display: inline;
+padding: 7px 10px 0 20px;
+}
+
+header img {
+float: left;
+margin-left: 50px;
+margin-right: 200px;
+}
+
+header nav {
+float: left;
+}
+
+ul {
+margin: 0;
+}
+
+header input {
+margin-top: 8px;
+height: 30px;
+}
+
+.pageheader {
+width: 100%;
+height: 300px;
+color: #797979;
+background-color: #EEEEEE;
+padding:50px;
+}
+
+.pageheader h1 {
+margin-top: 100px;
+font-size: 40px;
+font-weight: 400;
+text-align: center;
+}
+
+.pageheader p {
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+
+@media(max-width: 800px) {
+body {
+  width: 100%;
+  display: block;
+  padding: 0;
+  background-color: #fff;
+}
+}
+
+@media(max-width: 800px) {
+body img{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+}
+
+@media(max-width: 800px) {
+  header {
+    border-bottom: none;
+  }
+header li{
+  width: 100%;
+  display: block;
+  background-color: #EE534F;
+  border: 1px solid lightgrey;
+}
+header img {
+  width:100%;
+  height: auto;
+  padding: 0px;
+ }
+ header input {
+   display: none;
+ }
+ header a {
+   color: lightgrey;
+   padding-bottom: 3px;
+ }
+ header a:hover {
+   color: darkgrey;
+ }
+}
+
+ul {
+list-style-type: none;
+width: 40%;
+}
+
+ul li{
+/*rgba(350,	0, 101, 0.2)*/
+box-shadow: 2px 3px 3px 1px tomato;
+margin: 10px;
+border: 2px solid lightgrey;
+text-align: center;
+}
+
+#sticky-cart {
+float:right;
+width: 40%;
+margin-top: 80px;
+}
+
+#sticky-cart ul li {
+padding: 20px;
+}
+
+#sticky-cart h2 {
+padding: 20px;
+margin-left: 15px;
+}
+
+#courses-list img {
+width: 50%;
+}
+
+#courses-list button {
+color: white;
+font-size: 15px;
+background-color: #f55555;
+width: 100px;
+padding: 5px;
+border-radius: 4px;
+border-color: #f55555;
+}
+
+#courses-list button:hover {
+background:lighten(#ED524E, 50%);
+margin: 6px;
+height:40px;
+-webkit-transition: all 100ms ease;
+}
+
+#list-right {
+margin-top: 100px;
+}
+
+button {
+color: white;
+font-size: 14px;
+background-color: #f55555;
+width: 100px;
+padding: 5px;
+border-radius: 4px;
+border-color: #f55555;
+}
+#show-cart {
+width: 300px;
+
+}
+
+#clear-cart {
+margin-right: 200px;
+}

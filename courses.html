@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Code4CT/Courses</title>
+      <link rel="stylesheet" href="css/courses.css">
+      <!-- js library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <!-- link for bootstrap icons -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <!-- link for icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <a href="#" id="scroll" style="display: none;"><span></span></a>
+      <header>
+         <nav>
+            <a href="index.html"><img style="margin-right: 100px" src="http://code4ct.com/wp-content/uploads/2016/06/code4ct-logo-1.jpg" }height= "50px" width= "150px"></a>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Portfolio.html">PORTFOLIO</a></li>
+            <li><a href="Courses.html">COURSES</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            <input style="margin-left: 463px;" type="search" placeholder="Search"><a style="padding-left: 0px" href><span class="glyphicon glyphicon-search" style="margin-top: 5px; padding-left: 8px;"></span></a>
+         </nav>
+      </header>
+      <div class="pageheader">
+         <h1>COURSES</h1>
+         <p><span style="color: #EE534F">HOME</span> → COURSES</p>
+      </div>
+      <div class="container">
+         <div id="sticky-cart">
+            <h2>Check Out</h2>
+            <ul id="show-cart">
+            </ul>
+            <div>
+               You have <span id="count-cart">X</span> items in your cart
+            </div>
+            <div>
+               Total Cart: R<span id="total-cart"></span>
+            </div>
+         </div>
+         <div id="courses-list">
+            <ul id="list-right">
+               <li>
+                  <img src="images/coder.jpg" alt="Coding Intro">
+                  <h3>Intro to Coding: Web Pages</h3>
+                  <p><b>Course Description</b>: Code a simple one-page website using HTML and JQuery.</p>
+                  <p><b>Course Duration</b>: 3 hours</p>
+                  <p><b>Cost</b>: R250</p>
+                  <button class="add-to-cart" data-name="Intro to Coding: Web Pages" data-description="Code a simple one-page website using HTML and JQuery." data-duration="3 hours" data-cost="250">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/create code.png" alt="Create Code">
+                  <h3>Create with Code: Web Pages</h3>
+                  <p><b>Course Description</b>: Learn how the internet works and code a simple one-page website using HTML, CSS and JQuery.</p>
+                  <p><b>Course Duration</b>: 3 days</p>
+                  <p><b>Cost</b>: R960</p>
+                  <button class="add-to-cart" data-name="Create with Code: Web Pages" data-description="Learn how the internet works and code a simple one-page website using HTML, CSS and JQuery." data-duration="3 days" data-cost="960">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/developer.jpg" alt="Developer">
+                  <h3>Getting started as a developer</h3>
+                  <p><b>Course Description</b>: Learn how to set up a development environment and practical skills to start coding.</p>
+                  <p><b>Course Duration</b>: 3 hours</p>
+                  <p><b>Cost</b>: R250</p>
+                  <button class="add-to-cart" data-name="Getting started as a developer" data-description="Learn how to set up a development environment and practical skills to start coding." data-duration="3 hours" data-cost="250">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/music-notes.jpg" alt="Intro Music">
+                  <h3>Intro to Coding: Music</h3>
+                  <p><b>Course Description</b>: Code a song using SonicPi software on a Raspberry Pi computer.</p>
+                  <p><b>Course Duration</b>: 3 hours</p>
+                  <p><b>Cost</b>: R250</p>
+                  <button class="add-to-cart" data-name="Intro to Coding: Music" data-description="Code a song using SonicPi software on a Raspberry Pi computer." data-duration="3 hours" data-cost="250">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/code and music.png" alt="Create Music">
+                  <h3>Create with Code: Music</h3>
+                  <p><b>Course Description</b>: Learn computer science principles by coding music with a Raspberry Pi computer.</p>
+                  <p><b>Course Duration</b>: 3 days</p>
+                  <p><b>Cost</b>: R960</p>
+                  <button class="add-to-cart" data-name="Create with Code: Music" data-description="Learn computer science principles by coding music with a Raspberry Pi computer." data-duration="3 days" data-cost="960">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/anima.jpg" alt="Animation">
+                  <h3>Intro to Coding: Animation</h3>
+                  <p><b>Course Description</b>: Create a 2D animation using coding language JavaScript.</p>
+                  <p><b>Course Duration</b>: 3 hours</p>
+                  <p><b>Cost</b>: R250</p>
+                  <button class="add-to-cart" data-name="Intro to Coding: Animation" data-description="Create a 2D animation using coding language JavaScript." data-duration="3 hours" data-cost="250">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/animate.jpg" alt="animate">
+                  <h3>Create with Code: Animation</h3>
+                  <p><b>Course Description</b>: Learn computer science principles by coding animations using JavaScript.</p>
+                  <p><b>Course Duration</b>: 3 days</p>
+                  <p><b>Cost</b>: R960</p>
+                  <button class="add-to-cart" data-name="Create with Code: Animation" data-description="Learn computer science principles by coding animations using JavaScript." data-duration="3 days" data-cost="960">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/js.jpg" alt="JS">
+                  <h3>Beginner JavaScript</h3>
+                  <p><b>Course Description</b>: Develop a basic proficiency in programming structures and methods in JavaScript so that you are able to create an interactive web application.</p>
+                  <p><b>Course Duration</b>: 6 days</p>
+                  <p><b>Cost</b>: R1800</p>
+                  <button class="add-to-cart" data-name="Beginner JavaScript" data-description="Develop a basic proficiency in programming structures and methods in JavaScript so that you are able to create an interactive web application." data-duration="6 days" data-cost="1800">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/front.png" alt="front end">
+                  <h3>Beginner Front End Web Development</h3>
+                  <p><b>Course Description</b>: Develop a good proficiency in CSS and an understanding of web design principles so that you are able to create visually pleasing web pages.</p>
+                  <p><b>Course Duration</b>: 6 days</p>
+                  <p><b>Cost</b>: R1800</p>
+                  <button class="add-to-cart" data-name="Beginner Front End Web Development" data-description="Develop a good proficiency in CSS and an understanding of web design principles so that you are able to create visually pleasing web pages." data-duration="6 days" data-cost="1800">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/python.jpg" alt="python">
+                  <h3>Beginner Python</h3>
+                  <p><b>Course Description</b>: Develop a basic proficiency in programming principles and methods in Python.</p>
+                  <p><b>Course Duration</b>: 6 days</p>
+                  <p><b>Cost</b>: R1800</p>
+                  <button class="add-to-cart" data-name="Beginner Python" data-description="Develop a basic proficiency in programming principles and methods in Python." data-duration="6 days" data-cost="1800">Add Item</button>
+               </li>
+               <li>
+                  <img src="Images/FULL.jpg" alt="fullstack">
+                  <h3>Full Stack JavaScript</h3>
+                  <p><b>Course Description</b>: Develop an understanding of the front and backend development environment and basic proficiency in server side JavaScript and object-oriented programming. By the end of the course you will be able to architect an application, control flow in an application and persist and retrieve data in a database.</p>
+                  <p><b>Course Duration</b>: 6 days</p>
+                  <p><b>Cost</b>: R1800</p>
+                  <button class="add-to-cart" data-name="Full Stack JavaScript" data-description="Develop an understanding of the front and backend development environment and basic proficiency in server side JavaScript and object-oriented programming. By the end of the course you will be able to architect an application, control flow in an application and persist and retrieve data in a database." data-duration="6 days" data-cost="1800">Add Item</button>
+               </li>
+               <li>
+                  <img src="images/deploy.png" alt="web deploy">
+                  <h3>Website Deployment</h3>
+                  <p><b>Course Description</b>: Learn how to manage and deploy code to a server environment so that you can host your own web pages.</p>
+                  <p><b>Course Duration</b>: 4 days</p>
+                  <p><b>Cost</b>: R1200</p>
+                  <button class="add-to-cart" data-name="Website Deployment" data-description="Learn how to manage and deploy code to a server environment so that you can host your own web pages." data-duration="4 days" data-cost="1200">Add Item</button>
+               </li>
+            </ul>
+            <button id="clear-cart" style="margin-left: 235px">Clear Cart</button>
+         </div>
+      </div>
+      <script src="courses.js" charset="utf-8"></script>
+      <script src="javascript/courses_java.js" charset="utf-8"></script>
+      <script type="text/javascript"></script>
+   </body>
+</html>
